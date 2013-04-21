@@ -1,11 +1,9 @@
 Frontal ZF View Helper
 ----------------------
 
-This is a utility class for using [frontal][frn-git] in a Zend Framework 1.x project's templates.
+This is a utility class for using Frontal (https://github.com/carlmw/frontal) in a Zend Framework 1.x project's templates.
 
 Currently this only supports frontal's ->location() method, which allows a template to override the routed URL in favour of a different one - this is useful when functionality needs to be shared betwen different pages in a ZF project without adding all of the different routes to the Frontal JS.
-
-    [frn-git]: https://github.com/carlmw/frontal
 
 Installation
 ============
